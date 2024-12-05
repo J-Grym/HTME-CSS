@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@font-face {
+    font-family: droid;
+    src: url(fontes/idroid.otf);
+}
+body {
+    background-color: #E8E7C2;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#269C5A, #043D1C 80%);
+    color: white;
+    text-align: center;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+header > h1 {
+    margin: 0px;
+}
+header > p {
+    padding-top: 20px;
+}
+nav {
+    text-align: left;
+    margin-top: 70px;
+}
+nav > a {
+    margin-right: 30px;
+    color: #a9e8c4;
+    text-decoration: none;
+}
+nav > a:hover {
+    background-color: #a9e8c4;
+    color: #043D1C;
+    border-radius: 3px;
+}
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin-top: 0px;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 20px;
+    border: solid;
+    border-color: #043D1C;
+}
+main > h1 {
+    font-family: droid;
+}
+main > h2 {
+    font-family: droid;
+    background-image: linear-gradient(to right, #40C74B, white);
+}
+main > p {
+    text-indent: 30px;
+}
+picture {
+    justify-content: center;
+    display: flex;
+}
+div > img {
+    display: block;
+    margin: auto;
+}
+iframe {
+    display: block;
+    margin: auto;
+}

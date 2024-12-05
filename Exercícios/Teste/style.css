@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Dark;
+    src: url(Darkcastle_PERSONAL_USE_ONLY.otf);
+}
+
+body {
+    background-image: linear-gradient(to right, #804642, #BF3D34);
+}
+main {
+    background-color: white;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px #403231;
+    padding: 5px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: Dark;
+    color: #BF3D34;
+    font-size: 3em;
+    font-weight: 200;
+}
+
+h2 {
+    font-family: Dark;
+    color: #BF3D34;
+}
+
+p {
+    font-weight: bold;
+}
