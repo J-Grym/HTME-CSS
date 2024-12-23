@@ -43,3 +43,9 @@ form {
     border-right: solid 3px;
     border-bottom: solid 3px;
 }
+
+fieldset {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #403231;
+}
