@@ -16,6 +16,29 @@
        <h2>Terceiro passo</h2>
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro doloremque temporibus illo placeat quam, soluta ducimus suscipit minima. Amet, maxime perspiciatis culpa in pariatur similique non libero dicta architecto hic!</p>
     </main>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>
+                <p>Dados pessoais</p>
+            </legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input class="caixa" type="text" name="Nome" id="inome" placeholder="Nome e sobrenome">
+            </p>
+            <p>
+                <label for="idata">Data de Nascimento:</label>
+                <input class="caixa" type="date" name="Data" id="idata" min="1950-01-01" max="2024-12-31" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input class="caixa" type="email" name="email" id="iemail" placeholder="@gmail.com">
+            </p>
+        </fieldset> <br>
+
+        <input class="caixa" type="submit" value="Enviar">
+        <input class="caixa" type="reset" value="Limpar">
+    </form>
     
 </body>
 </html>
