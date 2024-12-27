@@ -2,6 +2,69 @@
 
 /*todas as demais mídeias*/
 
+/*typical device breakpoints (são os tamanhos de diferentes telas) pesquisar no google*/
+
 @media print {
-    
+    body {
+        background-image: url(../icon-print.png);
+    }
+
+    main {
+        border: 2px solid black;
+        width: 90vw;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita com o patrocício do site www.cursoemvideo.com';
+        font-size: 0.4em;
+        text-decoration: overline;
+    }
+
+    main h1 {
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+
+    #smartphone {display: none;}
+    #tablet {display: none;}
+    #prnt {display: block;}
+    #pc {display: none;}
+    #tv {display: none;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url(../back-tablet.jpg);
+    }
+
+    #smartphone {display: none;}
+    #tablet {display: block;}
+    #prnt {display: none;}
+    #pc {display: none;}
+    #tv {display: none;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url(../back-pc.jpg);
+    }
+    #smartphone {display: none;}
+    #tablet {display: none;}
+    #prnt {display: none;}
+    #pc {display: block;}
+    #tv {display: none;}
+
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../back-tv.jpg);
+    }
+
+    #smartphone {display: none;}
+    #tablet {display: none;}
+    #prnt {display: none;}
+    #pc {display: none;}
+    #tv {display: block;}
 }
