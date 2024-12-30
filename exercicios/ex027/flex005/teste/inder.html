@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header {
+            background-color: aqua;
+            height: 150px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        h1 {
+            background-color: white;
+            width: 600px;
+            height: 100px;
+            text-align: center;
+            align-content: center;
+        }
+
+        div.img {
+            background-color: blueviolet;
+            width: 100px;
+            height: 100px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        div#telas {
+            height: 300px;
+            width: 240px;
+            border: 1px solid black;
+            margin-top: 20px;
+            border-radius: 20px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section.quadro {
+            height: 200px;
+            width: 140px;
+            background-color: brown;
+            border-radius: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="img">
+            
+        </div>
+        <div>
+            <h1>Olá, mundo!</h1>
+        </div>
+    </header>
+
+    <main>
+        <div id="telas">
+            <section class="quadro"></section>
+        </div>
+        <div id="telas">
+            <section class="quadro"></section>
+        </div>
+        <div id="telas">
+            <section class="quadro"></section>
+        </div>
+    </main>
+</body>
+</html>
