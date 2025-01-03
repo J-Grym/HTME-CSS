@@ -26,7 +26,7 @@ header {
 }
 
 header h1 {
-    border: 1px dotted black;
+    
 }
 
 header > nav > a {
@@ -46,7 +46,7 @@ header > nav > a:hover {
 }
 
 nav {
-    border: 1px dotted black;
+   
 
     display: flex;
     flex-flow: row wrap;
@@ -54,10 +54,26 @@ nav {
 }
 
 main {
+    display: flex;
     background-color: white;
     margin: 10px;
     padding: 10px;
+    height: 100vh;
     border-radius: 10px;
     box-shadow: 2px 2px 3px black;
+    justify-content: center;
 }
+
+main p {
+    width: 500px;
+    text-align: center;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+
 
